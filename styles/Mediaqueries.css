@@ -1,0 +1,105 @@
+@media  screen and (max-width:1400px) {
+    
+    .profile{
+        height: 85vh;
+        margin-bottom: 6em;
+
+    }
+    
+    .about_containers{
+        flex-wrap: wrap;
+    }
+
+   
+}
+
+
+@media  screen and (max-width:1200px) {
+    .nav-desktop{
+        display:none;
+    }
+    
+    .hamburger-nav{
+        display:flex;
+
+    }
+
+    .hamburger-menu{
+   
+        margin-left: 5em;
+    }
+
+    #skillset, .experience-details-container{
+        margin-top: 2em;
+    }
+
+    .profile {
+
+        display: block;
+        padding-left: 3em;
+        
+        
+    }
+
+    section{
+        margin: 10em 0;
+    }
+
+    section, .section-container{
+        /* height: fit-content; */
+        margin-left: 10em;
+    }
+  
+
+    .section_text{
+        display: block;
+        padding-left: 2em;
+       
+        
+    }
+
+    .section_pic_container{
+
+        margin: 0 auto 2em;
+       
+    }
+
+    .section_text .title {
+        font-weight: 200;
+        font-size: 2.5rem;
+        text-align: center;
+        /* padding-left: 5rem; */
+        
+       
+
+    }
+
+    .section_text p{
+        text-align: center;
+        padding: 1rem 5rem;
+    }
+
+    .section_text h1{
+        text-align: center;
+        padding: 1rem 5rem;
+    }
+
+
+    .arrow{
+        display:none;
+    }
+
+    .btn-container{
+        margin:0.3em 4em;
+        font-weight:1000;
+        font-size: 2.2em;
+        gap:0.5em;
+        
+    }
+
+    .btn-container button{
+        
+        font-size: 0.6em;
+    }
+
+}
